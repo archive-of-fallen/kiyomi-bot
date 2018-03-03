@@ -12,3 +12,5 @@ client.on('message', msg => {
   if(!msg.content.startsWith(prefix)) return;
   if(msg.author.bot) return;
 });
+
+client.login(token);
