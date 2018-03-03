@@ -1,5 +1,5 @@
-# Kiyomi-Bot (Rewrite)
-This is the JavaScript rewrite of Kiyomi.
+# kiyomi-bot
+A python-coded discord bot using discord.py
 
-## Support
-For bot support, join our [server](https://discord.gg/mqahdph)!
+# Support
+For bot support, join this [server](https://discord.gg/mqahdph)
