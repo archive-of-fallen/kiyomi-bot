@@ -5,8 +5,8 @@ const { prefix } = require('./config.json');
 
 client.on('ready', () => {
   console.log('Hey, I\'m ready!');
-  client.user.setActivity('with Fallen!');
-}
+  client.user.setActivity('you type commands', 4);
+});
           
 client.on('message', msg => {
   if(!msg.content.startsWith(prefix)) return;
