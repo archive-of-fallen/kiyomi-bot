@@ -1,6 +1,6 @@
 {
   "botData": {
     "prefix":"k!",
-    "token":"your_token"
+    "token":"process.env.BOT_TOKEN"
   }
 }
