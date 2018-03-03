@@ -5,9 +5,7 @@ const { prefix } = require('./config.json');
 
 client.on('ready', () => {
   console.log('Hey, I\'m ready!');
-  client.user.setActivity('you type commands', options({
-    type: 'WATCHING'
-  }));
+  client.user.setActivity('you type commands', {type: 4});
 });
           
 client.on('message', msg => {
