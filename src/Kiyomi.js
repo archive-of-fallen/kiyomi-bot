@@ -4,9 +4,11 @@ const client = new Discord.Client();
 const { prefix } = require('./config.json');
 const token = process.env.BOT_TOKEN;
 
+let statuses = ['you type commands', 'your server', 'for raiders'];
+
 client.on('ready', () => {
   console.log('Hey, I\'m ready!');
-  client.user.setActivity('you type commands', {type: 'WATCHING'});
+  client.user.setActivity(`${Math.floor(Math.random() * statuses.length)}`, {type: 'WATCHING'});
 });
           
 client.on('message', msg => {
