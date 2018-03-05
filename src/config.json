@@ -1,7 +1,6 @@
 {
   "botData": {
-    "prefix":"k!",
-    "token":process.env.BOT_TOKEN,
+    "prefix":"k!"
   },
   "perServerSettings": {
     "modlog":"<#channel>",
