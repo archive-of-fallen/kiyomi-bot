@@ -1,10 +1,11 @@
 {
   "botData": {
-    "prefix":"k!"
+    "defaultprefix":"k!"
   },
   "perServerSettings": {
     "modlog":"<#channel>",
     "auditlog":"<#channel>",
-    "modrole":"<@&id>"
+    "modrole":"<@&id>",
+    "customprefix":"!"
   }
 }
