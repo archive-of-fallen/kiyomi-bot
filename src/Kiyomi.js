@@ -5,7 +5,7 @@ const { prefix } = require('./config.json');
 const token = process.env.BOT_TOKEN;
 
 let statuses = ['you type commands', 'your server', 'for raiders'];
-let randInt = Math.floor(Math.random() * statuses.length);
+const randInt = Math.floor(Math.random() * statuses.length);
 
 client.on('ready', () => {
   console.log('Hey, I\'m ready!');
