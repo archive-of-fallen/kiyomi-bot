@@ -5,11 +5,11 @@ const { prefix } = require('./config.json');
 const token = process.env.BOT_TOKEN;
 
 let statuses = ['you type commands', 'your server', 'for raiders'];
-const randInt = Math.floor(Math.random() * statuses.length);
+const currentStatus = statuses[Math.floor(Math.random() * statuses.length)];
 
 client.on('ready', () => {
   console.log('Hey, I\'m ready!');
-  client.user.setActivity(statuses[randInt], {type: 'WATCHING'});
+  client.user.setActivity(currentStatus, {type: 'WATCHING'});
 });
           
 client.on('message', msg => {
