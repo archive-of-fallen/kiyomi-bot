@@ -6,6 +6,6 @@
     "modlog":"<#channel>",
     "auditlog":"<#channel>",
     "modrole":"<@&id>",
-    "customprefix":"!"
+    "customprefix":"k!" 
   }
 }
