@@ -4,7 +4,7 @@ const client = new Discord.Client();
 const { prefix } = require('./config.json');
 const token = process.env.BOT_TOKEN;
 
-let statuses = ['you type commands', 'your server', 'for raiders'];
+const statuses = ['you type commands', 'your server', 'for raiders'];
 const currentStatus = statuses[Math.floor(Math.random() * statuses.length)];
 
 client.on('ready', () => {
