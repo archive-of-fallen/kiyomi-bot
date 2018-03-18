@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-const prefix = require('./config.json');
+const prefix = require('./config.json').defaultprefix || customprefix;
 const token = process.env.BOT_TOKEN;
 
 const statuses = ['you type commands', 'your server', 'for raiders'];
